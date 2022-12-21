@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="visual">
+
+    </div>
+    <div class="mainbody">
+        <div class="doc">
+            <button class="previous_page">previous</button>
+            <!-- <div class="'child"> -->
+            <button onclick="clicking(this)"class="col-1" for="1">1</button>
+            <button onclick="clicking(this)"class="col-2" for="2">2</button>
+            <button onclick="clicking(this)"class="col-3" for="3">3</button>
+            <button onclick="clicking(this)"class="col-4" for="4">4</button>
+            <button onclick="clicking(this)"class="col-5" for="5">5</button>
+        <!-- </div> -->
+            <button class="next_page">next</button>
+        
+            
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+<!-- <script>
+    var next_button = document.querySelector(".next_page")
+next_button.addEventListener('click',mainbody2)
+    
+function mainbody2(){
+console.log("clicked")
+for(var i=1; i<=6; i++){
+var final_button = document.querySelector(`.col-${i}`)
+var text_button = parseInt(final_button.getAttribute('for'))
+var attribude_value = text_button +5
+final_button.setAttribute('for', attribude_value)
+    final_button.innerText = attribude_value
+  
+}
+}
+</script> -->
+</html>

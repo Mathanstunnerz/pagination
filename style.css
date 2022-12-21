@@ -1,0 +1,17 @@
+
+
+.mainbody{
+    display :flex;
+   justify-content: center;
+   position: relative;
+   top:100px;
+}
+.doc{
+    display: fixed;
+  
+    
+    
+}
+/* .previous_page{
+    display: none;
+} */
